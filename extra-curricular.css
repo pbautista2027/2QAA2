@@ -1,14 +1,14 @@
 @font-face {
     font-family: Cinzel Decorative-Bold;
-    src: url(fonts/CinzelDecorative-Bold.ttf)
+    src: url(CinzelDecorative-Bold.ttf)
 }
 @font-face {
     font-family: Darker Grotesque-Bold;
-    src: url(fonts/DarkerGrotesque-Bold.ttf);
+    src: url(DarkerGrotesque-Bold.ttf);
 }
 @font-face {
     font-family: Darker Grotesque-ExtraBold;
-    src: url(fonts/DarkerGrotesque-ExtraBold.ttf);
+    src: url(DarkerGrotesque-ExtraBold.ttf);
 }
 .navbar {
     margin-bottom: 0px;
