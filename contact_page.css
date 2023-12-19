@@ -1,0 +1,108 @@
+@font-face {
+    font-family: Cinzel Decorative-Bold;
+    src: url(fonts/CinzelDecorative-Bold.ttf)
+}
+@font-face {
+    font-family: Darker Grotesque-Bold;
+    src: url(fonts/DarkerGrotesque-Bold.ttf);
+}
+@font-face {
+    font-family: Darker Grotesque-ExtraBold;
+    src: url(fonts/DarkerGrotesque-ExtraBold.ttf);
+}
+.navbar {
+    margin-bottom: 0px;
+    border-radius: 0;
+}
+
+#header {
+    margin-bottom: 0;
+    padding-top: 1vh;
+    padding-left: 1vh;
+    padding-bottom: 0.5vh;
+}
+#header p{
+    padding: 0;
+    margin: 0;
+    background-color: #fff185;
+}
+#logo{
+    width: 15vh;
+    height: 15vh;
+    border-radius: 2147483647px;
+}
+#navigation {
+    background-color: #FFD12F;
+}
+.first-part {
+    background-image: url(background_index.png);
+    background-repeat: repeat;
+}
+.categories {
+    font-family: Darker Grotesque-Bold;
+    color: black;
+    font-size: 5vh;
+    text-decoration: none;
+    margin-left: auto;
+    padding: 1.4vh;
+    padding-bottom: 2.6vh;
+}
+#search {
+    width: 7vh;
+}
+.sorio-alchemy {
+    background-image: url(DSC_0071_Modified.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Darker Grotesque-Bold;
+}
+.contact-us-text {
+    font-size: 7vh;
+    color: black;
+}
+.icons {
+    width: 15vh;
+    height: 15vh;
+}
+.contact-text {
+    font-size: 4vh;
+    color: black;
+}
+.contact-hyperlink {
+    text-decoration: none;
+    color: black;
+}
+.small-school-name {
+    font-family: Cinzel Decorative-Bold;
+    color: black;
+    font-size: 3vh;
+    padding: 0;
+    margin: 0;
+    padding-left: 2vh;
+}
+#burger {
+    width: 5vh;
+    padding-left: 1vh;
+}
+#home, #works, #academics, #extra-curriculars, #about:hover {
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.2s;
+}
+#home:hover, #works:hover, #academics:hover, #extra-curriculars:hover, #about:hover {
+    background-color: #ffffb7;
+}
+.burger-menu {
+    background-color:#FFD12F;
+    width: 18vh;
+    height: 100vh;
+    position: absolute;
+}
+.categories-small {
+    font-family: Darker Grotesque-Bold;
+    color: black;
+    font-size: 4vh;
+    text-decoration: none;
+}
+#small-navigation {
+    background-color: #fff185;
+} 

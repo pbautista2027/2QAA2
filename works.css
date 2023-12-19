@@ -1,0 +1,189 @@
+@font-face {
+    font-family: Cinzel Decorative-Bold;
+    src: url(fonts/CinzelDecorative-Bold.ttf)
+}
+@font-face {
+    font-family: Darker Grotesque-Bold;
+    src: url(fonts/DarkerGrotesque-Bold.ttf);
+}
+@font-face {
+    font-family: Darker Grotesque-ExtraBold;
+    src: url(fonts/DarkerGrotesque-ExtraBold.ttf);
+}
+.navbar {
+    margin-bottom: 0px;
+    border-radius: 0;
+}
+
+#header {
+    margin-bottom: 0;
+    padding-top: 1vh;
+    padding-left: 1vh;
+    padding-bottom: 0.5vh;
+}
+#header p{
+    padding: 0;
+    margin: 0;
+    background-color: #fff185;
+}
+#logo{
+    width: 15vh;
+    height: 15vh;
+    border-radius: 2147483647px;
+}
+#navigation {
+    background-color: #FFD12F;
+}
+.first-part {
+    background-image: url(background_index.png);
+    background-repeat: repeat;
+}
+.categories {
+    font-family: Darker Grotesque-Bold;
+    color: black;
+    font-size: 5vh;
+    text-decoration: none;
+    margin-left: auto;
+    padding: 1.4vh;
+    padding-bottom: 2.6vh;
+}
+#search {
+    width: 7vh;
+}
+.contact-details {
+    font-family: Darker Grotesque-Bold;
+    color: black;
+    font-size: 5vh;
+    transition-property: color;
+    transition-timing-function: ease-in-out;
+    text-decoration: none;
+    transition-duration: 0.2s;
+    padding: 0;
+    margin: 0;
+}
+.contact-details:hover {
+    color: #7a5901;
+}
+.small-school-name {
+    font-family: Cinzel Decorative-Bold;
+    color: black;
+    font-size: 3vh;
+    padding: 0;
+    margin: 0;
+    padding-left: 2vh;
+}
+#burger {
+    width: 5vh;
+    padding-left: 1vh;
+}
+#home, #about, #academics, #extra-curriculars {
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.2s;
+}
+#home:hover, #about:hover, #academics:hover, #extra-curriculars:hover {
+    background-color: #ffffb7;
+}
+.burger-menu {
+    background-color:#FFD12F;
+    width: 18vh;
+    height: 100vh;
+    position: absolute;
+}
+.categories-small {
+    font-family: Darker Grotesque-Bold;
+    color: black;
+    font-size: 4vh;
+    text-decoration: none;
+}
+.text-backdrop-custom {
+    text-shadow: 0.4vh 0.4vh 0vh #8c8549;
+}
+#english-collection {
+    font-family: Darker Grotesque-Bold;
+    color: black;
+    font-size: 7vh;
+    margin: 0;
+    padding: 0;
+}
+#embroidered-in-our-paths {
+    font-family: Darker Grotesque-Bold;
+    color: black;
+    font-size: 5vh;
+    border: 2px #ffec5c solid;
+    border-radius: 1.5vh;
+    background-color: #ffec5c;
+    text-decoration: none;
+    padding-bottom: 1vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    margin: 0;
+}
+#english-collection-description {
+    font-family: Darker Grotesque-Bold;
+    color: black;
+    font-size: 5vh;
+    border: 2px #ffffb7 solid;
+    border-radius: 1.5vh;
+    background-color: #ffffb7;
+    text-decoration: none;
+    padding-bottom: 1vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    margin-top: 10vh;
+}
+#works-intro {
+    width: 80%;
+}
+#english-collection-actual-description {
+    font-family: Darker Grotesque-Bold;
+    color: black;
+    font-size: 5vh;
+    border: 2px #d9cd71 solid;
+    background-color: #d9cd71;
+}
+#small-navigation {
+    background-color: #fff185;
+}
+#petrarchan-intro, #shakespearean-intro {
+    font-family: Darker Grotesque-Bold;
+    color: black;
+    font-size: 5vh;
+    border: 2px #ffec5c solid;
+    border-radius: 1.5vh;
+    background-color: #ffec5c;
+    text-decoration: none;
+    padding-bottom: 1vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
+}
+.center-columns {
+   display: grid;
+   justify-content: center;
+   align-content: center;
+   grid-auto-flow: column;
+}
+.petrarchan-sonnet-intro, .petrarchan-sonnet-original, .shakespearean-sonnet-intro, .shakespearean-sonnet-original {
+    font-family: Darker Grotesque-Bold;
+    color: black;
+    font-size: 4vh;
+    border: #ffffb7 solid;
+    border-radius: 1.5vh;
+    background-color: #ffffb7;
+    text-decoration: none;
+    padding-bottom: 1vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
+}
+.petrarchan-sonnet-name, .petrarchan-original, .shakespearean-sonnet-name, .shakespearean-original {
+    font-family: Darker Grotesque-Bold;
+    color: black;
+    font-size: 4vh;
+}
+.petrarchan-original-text, .petrarchan-text, .shakespearean-original-text, .shakespearean-text {
+    font-family: Darker Grotesque-Bold;
+    color: black;
+    font-size: 3vh;
+    background-color: #d9cd71;
+    margin-left: 5vh;
+    margin-right: 5vh;
+}

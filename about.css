@@ -1,0 +1,151 @@
+@font-face {
+    font-family: Cinzel Decorative-Bold;
+    src: url(fonts/CinzelDecorative-Bold.ttf)
+}
+@font-face {
+    font-family: Darker Grotesque-Bold;
+    src: url(fonts/DarkerGrotesque-Bold.ttf);
+}
+@font-face {
+    font-family: Darker Grotesque-ExtraBold;
+    src: url(fonts/DarkerGrotesque-ExtraBold.ttf);
+}
+.navbar {
+    margin-bottom: 0px;
+    border-radius: 0;
+}
+
+#header {
+    margin-bottom: 0;
+    padding-top: 1vh;
+    padding-left: 1vh;
+    padding-bottom: 0.5vh;
+}
+#header p{
+    padding: 0;
+    margin: 0;
+    background-color: #fff185;
+}
+#logo{
+    width: 15vh;
+    height: 15vh;
+    border-radius: 2147483647px;
+}
+#navigation {
+    background-color: #FFD12F;
+}
+.first-part {
+    background-image: url(background_about.png);
+    background-repeat: repeat;
+}
+.categories {
+    font-family: Darker Grotesque-Bold;
+    color: black;
+    font-size: 5vh;
+    text-decoration: none;
+    margin-left: auto;
+    padding: 1.4vh;
+    padding-bottom: 2.6vh;
+}
+#search {
+    width: 7vh;
+}
+.contact-details {
+    font-family: Darker Grotesque-Bold;
+    color: black;
+    font-size: 5vh;
+    transition-property: color;
+    transition-timing-function: ease-in-out;
+    text-decoration: none;
+    transition-duration: 0.2s;
+    padding: 0;
+    margin: 0;
+}
+.contact-details:hover {
+    color: #7a5901;
+}
+.small-school-name {
+    font-family: Cinzel Decorative-Bold;
+    color: black;
+    font-size: 3vh;
+    padding: 0;
+    margin: 0;
+    padding-left: 2vh;
+}
+#burger {
+    width: 5vh;
+    padding-left: 1vh;
+}
+#extra-curriculars, #works, #academics, #home {
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.2s;
+}
+#extra-curriculars:hover, #works:hover, #academics:hover, #home:hover {
+    background-color: #ffffb7;
+}
+.burger-menu {
+    background-color:#FFD12F;
+    width: 18vh;
+    height: 100vh;
+    position: absolute;
+}
+.categories-small {
+    font-family: Darker Grotesque-Bold;
+    color: black;
+    font-size: 4vh;
+    text-decoration: none;
+}
+#small-navigation {
+    background-color: #fff185;
+} 
+.history-title {
+    font-family: Darker Grotesque-ExtraBold;
+    color: black;
+    font-size: 7vh;
+    text-shadow: 0.05vh 0.05vh 0 black, -0.05vh 0.05vh 0 black, -0.05vh -0.05vh 0 black, 0.05vh -0.05vh 0 black;
+    padding: 0;
+    margin: 0;
+}
+.history-description {
+    font-family: Darker Grotesque-Bold;
+    color: black;
+    font-size: 4.5vh;
+}
+.text-backdrop-custom {
+    text-shadow: 0.25vh 0.25vh 0vh #867c43;
+}
+.administrators-title, .teachers-title {
+    font-family: Darker Grotesque-Bold;
+    color: black;
+    font-size: 7vh;
+    margin: 0;
+    padding: 0;
+}
+.administrators-name {
+    font-family: Darker Grotesque-Bold;
+    color: black;
+    font-size: 5vh;
+    margin: 0;
+    padding: 0;
+}
+.administrator-picture {
+    width: 30vh;
+    margin-top: 2vh;
+}
+.teachers-picture {
+    width: 40vh;
+}
+.teachers-name {
+    font-family: Darker Grotesque-Bold;
+    color: black;
+    font-size: 6vh;
+    margin: 0;
+    padding: 0;
+}
+.teacher-achievements {
+    font-family: Darker Grotesque-Bold;
+    color: black;
+    font-size: 3vh;
+    margin: 0;
+    padding: 0;
+}

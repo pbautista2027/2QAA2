@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Homepage</title>
+        <link href="index.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <script src="index.js"></script>
+    </head>
+    <body>
+        <div class="first-part">
+            <div class="d-none d-sm-block">
+                <div class="jumbotron d-flex" id="header">
+                    <img src="DigitalAcademyLogo.png" id="logo" alt="">
+                    <div class="container-fluid text-left">
+                        <p style="font-size: 5vh; font-family: Cinzel Decorative-Bold; color: black;">P.R.I.D.E ACADEMY</p>      
+                        <p style="font-size: 2vh; font-family: Darker Grotesque-Bold; color: #49340d;">PRESTIGIOUS RESPONSIBLE INDEPENDENT DISCIPLINED<br>EXPERIENCED</p>
+                    </div>
+                </div>
+            </div>
+            
+            <nav class="navbar sticky-sm-top d-none d-sm-block" id="navigation">
+                <div class="container-fluid text-center">
+                    <div class="container">
+                        <a href="#" class="categories" id="home" style="background-color: #ffffb7;">HOME</a>
+                        <a href="about.html" class="categories" id="about">ABOUT</a>
+                        <a href="academics.html" class="categories" id="academics">ACADEMICS</a>
+                        <a href="extra-curricular.html" class="categories" id="extra-curriculars">EXTRA-CURRICULARS</a>
+                        <a href="works.html" class="categories" id="works">WORKS</a>
+                        <a href="#"><img src="search.png" id="search" alt=""></a>
+                    </div>
+                </div>
+            </nav>
+            <div class="sticky-top">
+                <nav class="navbar d-sm-none" id="small-navigation">
+                    <div class="jumbotron d-flex">
+                        <a href="javascript:burgerMenuFunction()"><img src="burger.png" id="burger" alt=""></a>
+                        <p class="small-school-name">P.R.I.D.E Academy</p>
+                    </div>
+                </nav>
+                <div class="burger-menu d-sm-none d-none" id="burger-menu">
+                    <ul style="list-style-type: none; margin-left: -2.5vh;">
+                        <li>
+                            <a href="#" class="categories-small" id="home-small" style="background-color: #ffffb7;">HOME</a>
+                        </li>
+                        <li>
+                            <a href="about.html" class="categories-small" id="about-small">ABOUT</a>
+                        </li>
+                        <li>
+                            <a href="academics.html" class="categories-small" id="academics-small">ACADS</a>
+                        </li>
+                        <li>
+                            <a href="extra-curricular.html" class="categories-small" id="extra-curriculars-small">EXTRA-CUR'</a>
+                        </li>
+                        <li>
+                            <a href="works.html" class="categories-small" id="works-small">WORKS</a>
+                        </li>
+                        <li>
+                            <a href="contact_page.html" class="categories-small" id="contact-small">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <p class="text-center" id="motto">Learn today, Lead tomorrow.</p>
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="panel-body"><img src="DSC_0059.JPG" class="example-images img-responsive" alt=""></div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="panel-body"><img src="DSC_0088.JPG" class="example-images img-responsive" alt=""></div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="panel-body"><img src="DSC_0081.JPG" class="example-images img-responsive" alt=""></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <p class="text-center" id="future-thingy">PRIDE Academy does not only equip you with knowledge, but with experience as well. Be prepared for the future with PRIDE.</p>
+            </div>
+            <div class="video-container">
+                <video class="text-center" autoplay muted controls id="video">
+                    <source src="cs_video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            
+            <div class="second-part">
+                <p class="text-center" id="about-school">About</p>
+                <p class="text-center" id="school-history">Prestigious Responsible Independent Disciplined Experienced Academy, better known as P.R.I.D.E. Academy, holds the esteemed title of being recognized as one of the most outstanding schools in the Milky Way. Established in November 2023, The P.R.I.D.E. Academy was founded by Paolo Eli Bautista, along with Norel Jana Mangaliag and Tanya Annika Jimenez during their high school years. This institution serves as a lasting tribute to their notable contribution to our planet and to the human race.</p>
+                <br><br><br><br><br><br><br><br><br><br><br><br><br>
+            </div>
+            <br><br>
+            <div class="third-part">
+                <p class="text-center" id="mission">Mission</p>
+                <p class="text-center" id="mission-description">P.R.I.D.E. Academy is dedicated to the well-rounded development of students. To produce members of society who shall uphold their values, utilize their wisdom, and cherish their awareness.</p>
+                <p class="text-center" id="vision">Vision</p>
+                <p class="text-center" id="vision-description">An academy that seeks the upholding of values and exercising them in their lives. Finding balance, peace, and good work ethic through experiences and lessons. In touch with their identity as an individual and as part of a community. To contribute to the people that surround them and to stay open-minded. Be creative and find ways to utilize their skills and talents.</p>
+            </div>
+
+            <div class="container text-center">
+                <a href="contact_page.html" class="contact-details">Contact Us</a>
+            </div>
+        </div>
+    </body>
+</html>
